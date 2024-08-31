@@ -1,28 +1,25 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './LocationInput.css';
 
-const LocationInput = ({ onAddLocation }) => {
-  const [location, setLocation] = useState('');
+const LocationInput = ({ search, setSearch, onSearch }) => {
+  const handleChange = (event) => {
+    setSearch(event.target.value);
+  };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (location.trim()) {
-      onAddLocation(location);
-      setLocation('');
-    }
+  const handleClick = () => {
+    onSearch();
   };
 
   return (
-    <form onSubmit={handleSubmit} className="location-form">
+    <div className="location-input">
       <input 
         type="text" 
-        value={location} 
-        onChange={(e) => setLocation(e.target.value)} 
-        placeholder="Enter location name" 
-        className="location-input"
+        value={search} 
+        onChange={handleChange} 
+        placeholder="Search locations..." 
       />
-      <button type="submit" className="location-button">Add Location</button>
-    </form>
+      <button onClick={handleClick}>Search</button>
+    </div>
   );
 };
 
