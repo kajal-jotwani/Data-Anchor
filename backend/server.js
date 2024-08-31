@@ -31,15 +31,18 @@ app.post('/locations', async (req, res) => {
   }
 });
 
-// Get all locations
+// Get all locations or search locations by name
 app.get('/locations', async (req, res) => {
   try {
-    const locations = await Location.find();
+    const { name } = req.query;
+    const query = name ? { name: new RegExp(name, 'i') } : {};
+    const locations = await Location.find(query);
     res.status(200).send(locations);
   } catch (error) {
     res.status(500).send(error);
   }
 });
+
 
 // Get a specific location by ID
 app.get('/locations/:id', async (req, res) => {
