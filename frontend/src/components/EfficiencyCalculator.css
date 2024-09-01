@@ -1,0 +1,91 @@
+/* Wrapper for the entire component */
+.efficiency-calculator-wrapper {
+    max-width: 800px; /* Adjusted width for a better fit */
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f2f4f6; /* Soft gray background for contrast */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: center;
+  }
+  
+  /* Title styling */
+  .efficiency-calculator-title {
+    color: #1f77b4; /* Distinct blue color */
+    font-size: 32px; /* Larger size for emphasis */
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Description styling */
+  .efficiency-calculator-description {
+    font-size: 18px;
+    color: #242323;
+    font-weight: 550;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+    max-width: 90%;
+    margin-left: auto; /* Center align text */
+    margin-right: auto; /* Center align text */
+  }
+  
+  /* General styles for the container */
+  .efficiency-calculator-container {
+    background-color: #ffffff; /* White background for the card */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 2rem;
+    border: 1px solid #ddd; /* Light border */
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Styling for input groups */
+  .efficiency-calculator-input-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .efficiency-calculator-input-group label {
+    display: block;
+    margin-bottom: 0.6rem; /* Increased margin for better visual spacing */
+    font-weight: bold;
+    color: #34495e; /* Slightly lighter dark color */
+  }
+  
+  .efficiency-calculator-input-group input,
+  .efficiency-calculator-input-group select {
+    width: 100%;
+    padding: 0.9rem; /* Increased padding for better usability */
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05); /* Subtle inner shadow */
+    font-size: 16px;
+    color: #2c3e50;
+  }
+  
+  /* Styling for button */
+  .efficiency-calculator-btn {
+    width: 100%;
+    padding: 0.9rem; /* Slightly more padding */
+    background-color: #3498db; /* Bright blue background */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .efficiency-calculator-btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Styling for the result section */
+  .efficiency-calculator-result {
+    margin-top: 1.8rem; /* Increased margin for better spacing */
+    text-align: center;
+  }
+  
+  .efficiency-calculator-result h2 {
+    font-size: 26px; /* Larger font size for emphasis */
+    color: #2c3e50;
+  }
+  
