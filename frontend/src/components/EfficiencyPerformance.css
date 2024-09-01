@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.efficiency-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 40px; /* Increased space between items */
+    padding: 20px;
+    max-width: 90%; /* Reduce the maximum width to make the boxes less wide */
+    margin: 0 auto; /* Center the container */
+}
+
+.efficiency-card {
+    background-color: #1b2838;
+    color: white;
+    border-radius: 12px; /* Slightly rounded corners for a softer look */
+    overflow: hidden;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Increased shadow for a more defined look */
+    height: 420px; /* Adjusted height */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.efficiency-card:hover {
+    transform: scale(1.02); /* Slightly enlarge card on hover */
+}
+
+.efficiency-card img {
+    width: 100%;
+    height: 200px; /* Adjusted height of the image */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+.efficiency-content {
+    padding: 20px; /* Adjusted padding inside the content */
+}
+
+.efficiency-content h2 {
+    margin-top: 0;
+    font-size: 24px;
+}
+
+.efficiency-content p {
+    font-size: 18px; /* Increased font size for better readability */
+    line-height: 1.6; /* Improved line spacing for better readability */
+    margin-bottom: 0;
+}
+
+i {
+    font-style: italic;
+}
