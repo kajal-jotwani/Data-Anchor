@@ -1,8 +1,44 @@
 .header {
-    background-color: #4CAF50;
-    padding: 20px;
-    text-align: center;
-    color: white;
-    font-family: Arial, sans-serif;
-  }
-  
+  background-color: #263238;
+  padding: 15px 40px; /* Increased padding for a more spacious look */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  margin-right: 40px; /* Added space between the logo and navbar */
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 28px; /* Slightly larger font size for better visibility */
+}
+
+.navbar {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  margin: 0 20px; /* Increased margin for better spacing between links */
+}
+
+.nav-list a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px; /* Increased font size for improved readability */
+  transition: color 0.3s ease;
+}
+
+.nav-list a:hover {
+  color: #edcdcd;
+}
