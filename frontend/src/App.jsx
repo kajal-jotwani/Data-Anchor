@@ -1,9 +1,13 @@
-
 import React, { useState, useEffect } from 'react';
 import Header from './components/Header';
 import MapComponent from './components/MapComponent';
 import LocationInput from './components/LocationInput';
 import LocationList from './components/LocationList';
+import EfficiencyPerformance from './components/EfficiencyPerformance';
+import Home from './components/Home';
+import CarbonEmissionCalculator from './components/CarbonEmissionCalculator';
+import EfficiencyCalculator from './components/EfficiencyCalculator';
+import Footer from './components/Footer'; // Import Footer
 import './index.css';
 
 const App = () => {
@@ -35,12 +39,16 @@ const App = () => {
   return (
     <div className="app">
       <Header />
+      <Home />
+      <EfficiencyPerformance />
       <MapComponent locations={filteredLocations} />
       <LocationInput search={search} setSearch={setSearch} onSearch={handleSearch} />
       <LocationList locations={filteredLocations} />
+      <CarbonEmissionCalculator />
+      <EfficiencyCalculator />
+      <Footer /> {/* Use Footer component here */}
     </div>
   );
 };
 
 export default App;
-
