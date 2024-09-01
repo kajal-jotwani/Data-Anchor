@@ -5,6 +5,38 @@ body {
     background-color: #f0f0f0;
 }
 
+.efficiency-performance {
+    padding: 20px;
+}
+
+.efficiency-heading-container {
+    text-align: center;
+    margin-bottom: 40px; /* Space between heading and container */
+}
+
+.efficiency-heading {
+    font-size: 36px;
+    color: #1b2838;
+    margin: 0;
+    font-weight: bold; /* Make heading bold */
+    text-transform: uppercase; /* Make heading uppercase for emphasis */
+    letter-spacing: 1px; /* Add spacing between letters */
+}
+
+.efficiency-description {
+    font-size: 20px; /* Increased font size */
+    color: #0f0f0f; /* Slightly lighter color for contrast */
+    margin-top: 10px;
+    line-height: 1.8; /* Improved line spacing for readability */
+    max-width: 800px; /* Set a maximum width for the description */
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 550;
+    text-align: center; /* Center align the text */
+    font-family: 'Roboto', sans-serif; /* Use a modern font for better appearance */
+    padding: 0 20px; /* Add padding to the sides */
+}
+
 .efficiency-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 columns */
