@@ -4,7 +4,7 @@ import './LocationList.css';
 
 const LocationList = ({ locations }) => {
   if (!locations || locations.length === 0) {
-    return <div>No locations available. Try searching.</div>;
+     return <div> </div>;
   }
 
   return (
