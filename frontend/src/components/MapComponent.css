@@ -1,8 +1,44 @@
-.map {
+/* .map {
     height: 400px;
     width: 100%;
     margin: 20px auto;
     border: 2px solid #ddd;
     border-radius: 8px;
+  }
+   */
+
+   .map-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1500px; /* Limit the maximum width */
+  }
+  
+  .map-heading {
+    font-size: 2.5em;
+    color: #0d0d0d; /* Darker shade for better contrast */
+    margin-bottom: 15px;
+    font-weight: bold;
+  }
+  
+  .map-description {
+    font-size: 1.2em;
+    color: #000000; /* Slightly lighter color for better readability */
+    margin-bottom: 20px;
+    font-weight: 550;
+    line-height: 1.8;
+    max-width: 900px; /* Limit the width for better readability */
+    margin-left: auto; /* Center align text */
+    margin-right: auto; /* Center align text */
+    padding: 0 20px; /* Padding to avoid text touching edges */
+  }
+  
+  .map {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
