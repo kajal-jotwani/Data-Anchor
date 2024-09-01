@@ -1,0 +1,95 @@
+/* Wrapper for the entire component */
+.carbon-emission-calculator-wrapper {
+  max-width: 800px; /* Increased width for better fit */
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #f2f4f6; /* Soft gray background for contrast */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+}
+
+/* Title styling */
+.carbon-emission-calculator-heading {
+  color: #1f77b4; /* Distinct blue color */
+  font-size: 32px; /* Larger size for emphasis */
+  margin-bottom: 0.5rem;
+}
+
+/* Description styling */
+.carbon-emission-calculator-description {
+  font-size: 18px;
+  color: #0d0d0d;
+  font-weight: 550;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  max-width: 90%;
+  margin-left: auto; /* Center align text */
+  margin-right: auto; /* Center align text */
+}
+
+/* General styles for the container */
+.carbon-emission-calculator-container {
+  background-color: #ffffff; /* White background for the card */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 2rem;
+  border: 1px solid #ddd; /* Light border */
+  text-align: left; /* Align text to the left */
+}
+
+/* Styling for input groups */
+.carbon-emission-calculator-input-group {
+  margin-bottom: 1.5rem;
+}
+
+.carbon-emission-calculator-input-group label {
+  display: block;
+  color: #555;
+  font-size: 18px;
+  font-weight: 550;
+  margin-bottom: 8px;
+}
+
+.carbon-emission-calculator-input-group input,
+.carbon-emission-calculator-input-group select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 6px; /* Slightly less rounded */
+  border: 1px solid #ccc; /* Light gray border */
+  outline: none;
+}
+
+.carbon-emission-calculator-input-group input:focus,
+.carbon-emission-calculator-input-group select:focus {
+  border-color: #1f77b4; /* Blue border on focus */
+}
+
+/* Styling for button */
+.carbon-emission-calculator-btn {
+  background-color: #1f77b4; /* Blue background */
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+
+.carbon-emission-calculator-btn:hover {
+  background-color: #1565c0; /* Darker blue on hover */
+}
+
+/* Styling for the result section */
+.carbon-emission-calculator-result {
+  margin-top: 1.5rem;
+}
+
+.carbon-emission-calculator-result h2 {
+  color: #1f77b4;
+  font-size: 22px;
+  margin-top: 0;
+}
