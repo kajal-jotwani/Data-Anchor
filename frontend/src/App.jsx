@@ -5,6 +5,8 @@ import LocationInput from './components/LocationInput';
 import LocationList from './components/LocationList';
 import EfficiencyPerformance from './components/EfficiencyPerformance';
 import Home from './components/Home';
+import IncentivesList from './components/IncentivesList'; // Make sure this path is correct
+import SubscriptionForm from './components/SubscriptionForm';
 import CarbonEmissionCalculator from './components/CarbonEmissionCalculator';
 import EfficiencyCalculator from './components/EfficiencyCalculator';
 import Footer from './components/Footer'; // Import Footer
@@ -46,6 +48,8 @@ const App = () => {
       <LocationList locations={filteredLocations} />
       <CarbonEmissionCalculator />
       <EfficiencyCalculator />
+      <IncentivesList />
+      <SubscriptionForm />
       <Footer /> {/* Use Footer component here */}
     </div>
   );
