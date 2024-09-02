@@ -1,0 +1,69 @@
+/* Styling for the subscription form container */
+.subscription-form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Title styling */
+  .subscription-form h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  /* Styling for the form elements */
+  .subscription-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .subscription-form label {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subscription-form input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 1rem;
+    outline: none;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subscription-form input:focus {
+    border-color: #4CAF50;
+  }
+  
+  .subscription-form button {
+    padding: 0.75rem;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .subscription-form button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Styling for the message */
+  .subscription-form p {
+    margin-top: 1rem;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+  }
+  
